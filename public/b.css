@@ -1,0 +1,26 @@
+body{
+    background-color: #FAE68C;
+}
+
+header{
+    background: #ffc1c1;
+    text-align: center;
+}
+
+h1{
+background: #e9cb94;
+font-size: 110%;
+text-align: center;
+}
+
+details{
+    font-style: italic;
+}
+
+summary{
+    font-style: normal;
+}
+
+footer{
+    background-color:#ffc1c1 ;
+}
