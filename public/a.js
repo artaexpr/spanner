@@ -43,7 +43,7 @@ const main1 = () => {
     			var columns = table.getElementsByTagName('td');
         		for(columnIt = 0; columnIt < columns.length; columnIt++) {
             			var column = columns[columnIt];
-            			console.log(column.innerText);
+            			console.log(column);
         		}
 		    	pyret="Got JSON"
                     }
