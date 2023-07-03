@@ -28,10 +28,13 @@ const main1 = () => {
                 Promise.resolve().then(()=>{ 
                     myBody=""
                     const userAction = async () => {
-                    const response = await fetch('https://rainbow-citthora-be5202.netlify.app/ttt1');
-                    const myJson = await response.json(); //extract JSON from the http response
+                    const response1 = await fetch('https://rainbow-citthora-be5202.netlify.app/ttt1');
+                    const myJson1 = await response.json(); //extract JSON from the http response
                     // do something with myJson
-                    console.log(myJson);
+                    console.log(myJson1);
+                    const response2 = await fetch('http://www.amsskolkata.gov.in/data/kol_awos');
+                    const myJson2 = await response.json(); //extract JSON from the http response
+                    console.log(myJson2);
                     pyret="Got JSON"
                     }
                     console.log("Microtask1 State:")
