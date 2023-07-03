@@ -28,26 +28,26 @@ const main1 = () => {
                 Promise.resolve().then(()=>{ 
                     myBody=""
                     const userAction = async () => {
-                    const response1 = await fetch('https://rainbow-citthora-be5202.netlify.app/ttt1');
-                    const myJson1 = await response1.json(); //extract JSON from the http response
-                    // do something with myJson
-                    console.log(myJson1);
-                    const response2 = await fetch('https://rainbow-citthora-be5202.netlify.app/ttt2');
-                    const myTxt1 = await response2.text(); //extract TXT from the http response
-                    //console.log(myTxt1);
-                    var parser1 = new DOMParser();
-	            var doc1 = parser1.parseFromString(myTxt1, 'text/html');
-                    var table1 =doc1.getElementsByClassName("style2");
-                    //console.log(table1);
-    var table = table1[0];
-    if(table.className === 'style2') {
-    		var columns = table.getElementsByTagName('td');
-        for(columnIt = 0; columnIt < columns.length; columnIt++) {
-            var column = columns[columnIt];
-            console.log(column.innerText);
-        }
-    }
-                    pyret="Got JSON"
+                    	const response1 = await fetch('https://rainbow-citthora-be5202.netlify.app/ttt1');
+                    	const myJson1 = await response1.json(); //extract JSON from the http response
+                    	// do something with myJson
+                    	console.log(myJson1);
+                    	const response2 = await fetch('https://rainbow-citthora-be5202.netlify.app/ttt2');
+                    	const myTxt1 = await response2.text(); //extract TXT from the http response
+                    	//console.log(myTxt1);
+                    	var parser1 = new DOMParser();
+	            	var doc1 = parser1.parseFromString(myTxt1, 'text/html');
+                    	var table1 =doc1.getElementsByClassName("style2");
+                    	//console.log(table1);
+    			var table = table1[0];
+    			if(table.className === 'style2') {
+    				var columns = table.getElementsByTagName('td');
+        			for(columnIt = 0; columnIt < columns.length; columnIt++) {
+            				var column = columns[columnIt];
+            				console.log(column.innerText);
+        			}
+    			}
+                    	pyret="Got JSON"
                     }
                     console.log("Microtask1 State:")
                     console.log(userAction());
