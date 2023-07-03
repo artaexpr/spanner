@@ -9,6 +9,14 @@
   status = 200
   force = true
   headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://rainbow-citthora-be5202.netlify.app/ttt2"
+  to = "http://www.amsskolkata.gov.in/data/kol_awos"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+  
 [[headers]]
   for = "/*"
   [headers.values]
