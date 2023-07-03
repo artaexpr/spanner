@@ -4,7 +4,7 @@
   command = "# no build step"
 
 [[redirects]]
-  from = "https://dapper-chaja-395309.netlify.app/ttt1"
+  from = "https://rainbow-citthora-be5202.netlify.app/ttt1"
   to = "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m&daily=temperature_2m_max&timezone=auto"
   status = 200
   force = true
