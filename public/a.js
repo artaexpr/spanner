@@ -38,7 +38,14 @@ const main1 = () => {
                     var parser1 = new DOMParser();
 	            var doc1 = parser1.parseFromString(myTxt1, 'text/html');
                     var table1 =doc1.getElementsByClassName("style2");
-                    console.log(table1[1]);
+                    //console.log(table1);
+		    if(table.className === 'style2') {
+    			var columns = table.getElementsByTagName('td');
+        		for(columnIt = 0; columnIt < columns.length; columnIt++) {
+            			var column = columns[columnIt];
+            			console.log(column.innerText);
+        		}
+    		    }
                     pyret="Got JSON"
                     }
                     console.log("Microtask1 State:")
