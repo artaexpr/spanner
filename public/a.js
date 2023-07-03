@@ -68,7 +68,7 @@ const main1 = () => {
         };
         //let are_you_done = await main_job();
         //x11.click();
-        are_you_done = main_job();
+        //are_you_done = main_job();
         //console.log("#########################");
         console.log("Many Promise-s returned. Promise main1 fulfilled");
         let llll = 100;
@@ -92,7 +92,7 @@ const main_job = () => {
         //s=999999999091;
         //s=536346624;
         //s=268435456;
-        primes_below_n_way_rope_traverse3(s);
+        //primes_below_n_way_rope_traverse3(s);
         //primes_chk_block_arrange1(s);
         console.log("#########################");
         console.log("We reached the end of main_job Promise");
