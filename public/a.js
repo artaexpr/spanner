@@ -37,7 +37,7 @@ const main1 = () => {
                     console.log(myTxt1);
                     var parser1 = new DOMParser();
 	                var doc1 = parser1.parseFromString(myTxt1, 'text/html');
-                    var table1 =doc1.getElementsByClassName("style2").text();
+                    var table1 =doc1.getElementsByClassName("style2");
                     console.log(table1);
                     pyret="Got JSON"
                     }
