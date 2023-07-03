@@ -33,7 +33,7 @@ const main1 = () => {
                     // do something with myJson
                     console.log(myJson1);
                     const response2 = await fetch('https://rainbow-citthora-be5202.netlify.app/ttt2');
-                    const myJson2 = await response2.getElementsByClassName("style2"); //extract JSON from the http response
+                    const myJson2 = await response2.text(); //extract JSON from the http response
                     console.log(myJson2);
                     pyret="Got JSON"
                     }
