@@ -38,7 +38,10 @@ const main1 = () => {
                     	var parser1 = new DOMParser();
 	            	var doc1 = parser1.parseFromString(myTxt1, 'text/html');
                     	var table1 =doc1.getElementsByClassName("style2");
-                    	//console.log(table1);
+                    	console.log(table1);
+			    console.log(table1[0]);
+			    console.log(table1[1]);
+			    console.log(table1[2]);
     			var table = table1[0];
     			var columns = table.getElementsByTagName('td');
         		for(columnIt = 0; columnIt < columns.length; columnIt++) {
