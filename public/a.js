@@ -28,7 +28,7 @@ const main1 = () => {
                 Promise.resolve().then(()=>{ 
                     myBody=""
                     const userAction = async () => {
-                    const response = await fetch('https://dapper-chaja-395309.netlify.app/ttt1');
+                    const response = await fetch('https://rainbow-citthora-be5202.netlify.app/ttt1');
                     const myJson = await response.json(); //extract JSON from the http response
                     // do something with myJson
                     console.log(myJson);
