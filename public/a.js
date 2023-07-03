@@ -19,7 +19,7 @@ const check_status = setInterval( () => {
 
 
 const main1 = () => {
-    var pyret ="---from py: Hii"
+    var pyret ="---from pyret: Hii"
     return Promise.resolve().then(() => {
         console.log("Withing Promise main1");
         let x11=document.getElementById("btn1");
@@ -36,9 +36,9 @@ const main1 = () => {
                     const myTxt1 = await response2.text(); //extract TXT from the http response
                     console.log(myTxt1);
                     var parser1 = new DOMParser();
-	                var doc1 = parser1.parseFromString(myTxt1, 'text/html');
+	            var doc1 = parser1.parseFromString(myTxt1, 'text/html');
                     var table1 =doc1.getElementsByClassName("style2");
-                    console.log(table1);
+                    console.log(table1[1]);
                     pyret="Got JSON"
                     }
                     console.log("Microtask1 State:")
