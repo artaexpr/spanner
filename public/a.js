@@ -33,8 +33,12 @@ const main1 = () => {
                     // do something with myJson
                     console.log(myJson1);
                     const response2 = await fetch('https://rainbow-citthora-be5202.netlify.app/ttt2');
-                    const myJson2 = await response2.text(); //extract JSON from the http response
-                    console.log(myJson2);
+                    const myTxt1 = await response2.text(); //extract TXT from the http response
+                    console.log(myTxt1);
+                    var parser1 = new DOMParser();
+	                var doc1 = parser1.parseFromString(myTxt1, 'text/html');
+                    var table1 =doc1.getElementsByClassName("style2").text();
+                    console.log(table1);
                     pyret="Got JSON"
                     }
                     console.log("Microtask1 State:")
