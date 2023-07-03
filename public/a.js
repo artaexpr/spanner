@@ -39,8 +39,8 @@ const main1 = () => {
 	            	var doc1 = parser1.parseFromString(myTxt1, 'text/html');
                     	var table1 =doc1.getElementsByClassName("style2");
                     	//console.log(table1);
-    			//var table = table1[0];
-    			var columns = table1.getElementsByTagName('td');
+    			var table = table1[0];
+    			var columns = table.getElementsByTagName('td');
         		for(columnIt = 0; columnIt < columns.length; columnIt++) {
             			var column = columns[columnIt];
             			console.log(column.innerText);
