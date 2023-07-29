@@ -30,6 +30,13 @@
   status = 200
   force = true
   headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://rainbow-citthora-be5202.netlify.app/ttt5/"
+  to = "https://wx.baf.mil.bd/METBSR/images/omar/RadarSingle/mtr.jpg"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
   
 [[headers]]
   for = "/*"
