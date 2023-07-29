@@ -29,7 +29,7 @@
   to = "https://met.baf.mil.bd/Radar"
   status = 200
   force = true
-  headers = {Accept-Encoding = "gzip, deflate, br"}
+  headers = {X-From = "Netlify"}
   
 [[headers]]
   for = "/*"
