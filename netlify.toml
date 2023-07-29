@@ -26,7 +26,7 @@
 
 [[redirects]]
   from = "https://rainbow-citthora-be5202.netlify.app/ttt4/"
-  to = "https://wx.baf.mil.bd/METBSR/images/omar/RadarSingle/mtr.jpg"
+  to = "https://met.baf.mil.bd/Radar"
   status = 200
   force = true
   headers = {Accept-Encoding = "gzip, deflate, br"}
