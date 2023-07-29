@@ -29,7 +29,7 @@
   to = "https://wx.baf.mil.bd/METBSR/images/omar/RadarSingle/mtr.jpg"
   status = 200
   force = true
-  headers = {X-From = "Netlify"}
+  headers = {Accept-Encoding = "gzip, deflate, br"}
   
 [[headers]]
   for = "/*"
