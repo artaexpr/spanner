@@ -19,7 +19,7 @@
 
 [[redirects]]
   from = "https://rainbow-citthora-be5202.netlify.app/ttt3"
-  to = "https://ciscobinary.openh264.org/"
+  to = "http://ciscobinary.openh264.org/"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
